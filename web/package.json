@@ -5,7 +5,8 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon --watch src -e yaml index.js"
+    "build": "swagger-cli bundle src/general.yaml --outfile public/swagger.yaml --type yaml",
+    "start": "npm run build && nodemon --watch src -e yaml index.js"
   },
   "keywords": [],
   "author": "",

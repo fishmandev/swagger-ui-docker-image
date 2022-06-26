@@ -1,5 +1,5 @@
 {
   "events": {
-    "restart": "swagger-cli bundle src/general.yaml --outfile public/swagger.yaml --type yaml"
+    "restart": "npm run build"
   }
 }
