@@ -1,0 +1,12 @@
+{
+  "name": "swagger-ui-builder",
+  "version": "1.0.0",
+  "description": "Swagger UI builder",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Dmitriy Fishman",
+  "license": "ISC"
+}
